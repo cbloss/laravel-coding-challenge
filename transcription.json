@@ -8,10 +8,6 @@
         "id": 2,
         "name": "Ted Danson"
     }],
-     /* 
-        Monologues (transcribed speech). 
-        Each monologue corresponds to a run of text from one speaker.
-    */
     "monologues": [
     {
         "id": 1,
@@ -40,10 +36,6 @@
         "speaker": 2,
         "speaker_name": "Ted Danson",
         "elements": [
-        /* 
-            timestamp format is hh:mm:sss,fff, 
-            where fff represents milliseconds 
-        */
         {
             "type": "text",
             "value": "Hi",
