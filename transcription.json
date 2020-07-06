@@ -1,0 +1,68 @@
+{
+    "speakers": [
+    {
+        "id": 1,
+        "name": "Paul, M."
+    },
+    {
+        "id": 2,
+        "name": "Ted Danson"
+    }],
+     /* 
+        Monologues (transcribed speech). 
+        Each monologue corresponds to a run of text from one speaker.
+    */
+    "monologues": [
+    {
+        "id": 1,
+        "speaker": 1,
+        "speaker_name": "Paul, M.",
+        "elements": [
+        {
+            "type": "text",
+            "value": "Hello",
+            "timestamp": "00:00:01,000",
+            "end_timestamp": "00:00:01,138"
+        },
+        {
+            "type": "text",
+            "value": " "
+        },
+        {
+            "type": "text",
+            "value": "Ted",
+            "timestamp": "00:00:01,222",
+            "end_timestamp": "00:00:01,566"
+        }]
+    },
+    {
+        "id": 2,
+        "speaker": 2,
+        "speaker_name": "Ted Danson",
+        "elements": [
+        /* 
+            timestamp format is hh:mm:sss,fff, 
+            where fff represents milliseconds 
+        */
+        {
+            "type": "text",
+            "value": "Hi",
+            "timestamp": "00:00:02,000",
+            "end_timestamp": "00:00:02,138"
+        },
+        {
+            "type": "text",
+            "value": " "
+        },
+        {
+            "type": "text",
+            "value": "Paul",
+            "timestamp": "00:00:03,352",
+            "end_timestamp": "00:00:03,586"
+        },
+        {
+            "type": "text",
+            "value": ". ",
+        }]
+    }]
+}
