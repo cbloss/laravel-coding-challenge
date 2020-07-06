@@ -18,4 +18,11 @@ We want to see how you consume & model the data in Laravel. That means, what mod
 - Have added the example transcription file in the project root [here](https://github.com/JoggApp/laravel-coding-challenge/blob/master/transcription.json). Assume this is the incoming transcription webhook payload.
 - We try to push forward and use the latest versions available. Our production API is already running Laravel v7 and PHP v7.4, so feel free to use PHP v7.4
 
+## Terms in the transcription explained
+
+- `Speakers`: All the speakers in the video
+- `Monologues`: Each monologue corresponds to a run of text from one speaker.
+- `Elements`: The actual transcribed words spoken and the grammer & punctuations in between them.
+- The timestamp format of the `elements` is `hh:mm:sss,fff` where `fff` represents milliseconds.
+
 Happy Coding! :)
